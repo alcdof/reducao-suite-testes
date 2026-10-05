@@ -1,8 +1,8 @@
 # Redução de Suíte de Testes
 
-**Autores:** [Nome 1], [Nome 2], [Nome 3]
+**Autores:** André Luiz Caillot de Oliveira Filho, Davi Fernandes, Vitor Janzkovski Cardoso de Mello
 
-**Disciplina:** [Nome da disciplina] - [Instituição]
+**Disciplina:** Algoritmos e Estruturas de Dados 2 - UTFPR
 
 ---
 
@@ -22,8 +22,8 @@ Este projeto recebe uma matriz binária de cobertura (linhas = testes, colunas =
 
 O objetivo é implementar e comparar duas estratégias de redução de suíte de testes.
 
-* **Linguagem:** [Python / C / C++ / Java, preencher]
-* **Dependências:** [nenhuma / listar]
+* **Linguagem:** C
+* **Dependências:** [inserir]
 * **Capacidades principais:**
   * Leitura e validação da entrada (quantidades, identificadores e valores binários).
   * Verificação de requisitos impossíveis de cobrir.
@@ -104,7 +104,7 @@ $$t^* = \arg\max_{t_i \notin S} \left| C(t_i) \setminus \bigcup_{t_j \in S} C(t_
 ### Execução
 
 ```bash
-git clone https://github.com/[usuario]/reducao-suite-testes.git
+git clone https://github.com/alcdof/reducao-suite-testes.git
 cd reducao-suite-testes
 [comando para executar] casos/referencia.txt
 ```
@@ -176,6 +176,6 @@ Este projeto tem fins educacionais. O modelo de cobertura é uma simplificação
 
 ## Contato
 
-* **[Nome 1]** - [GitHub](https://github.com/[usuario1]) - [e-mail]
+* **[André Caillot Filho]** - [GitHub](https://github.com/alcdof) - [andreluizfilho@alunos.utfpr.edu.br](mailto:andreluizfilho@alunos.utfpr.edu.br)
 * **[Nome 2]** - [GitHub](https://github.com/[usuario2]) - [e-mail]
 * **[Nome 3]** - [GitHub](https://github.com/[usuario3]) - [e-mail]
