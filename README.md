@@ -176,6 +176,6 @@ Este projeto tem fins educacionais. O modelo de cobertura é uma simplificação
 
 ## Contato
 
-* **[André Caillot Filho]** - [GitHub](https://github.com/alcdof) - [andreluizfilho@alunos.utfpr.edu.br](mailto:andreluizfilho@alunos.utfpr.edu.br)
-* **[Nome 2]** - [GitHub](https://github.com/[usuario2]) - [e-mail]
+* **André Caillot Filho** - [GitHub](https://github.com/alcdof) - [andreluizfilho@alunos.utfpr.edu.br](mailto:andreluizfilho@alunos.utfpr.edu.br)
+* **Davi Fernandes** - [GitHub](https://github.com/davifern4ndes) - [davfer@alunos.utfpr.edu.br](mailto:davfer@alunos.utfpr.edu.br)
 * **[Nome 3]** - [GitHub](https://github.com/[usuario3]) - [e-mail]
