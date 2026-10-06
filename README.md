@@ -161,7 +161,7 @@ Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da
 
 | Integrante | Responsabilidade | Branch |
 |------------|------------------|--------|
-| [Nome 1] | Leitura e validação da entrada | `feature/validacao-entrada` |
+| André Caillot | Leitura e validação da entrada | `feature/validacao-entrada` |
 | [Nome 2] | Força bruta | `feature/forca-bruta` |
 | [Nome 3] | Guloso | `feature/guloso` |
 | [Nome 4] | Casos de teste e análise | `test/casos-de-teste`, `docs/analise` |
