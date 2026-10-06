@@ -162,7 +162,7 @@ Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da
 | Integrante | Responsabilidade | Branch |
 |------------|------------------|--------|
 | [Nome 1] | Leitura e validação da entrada | `feature/validacao-entrada` |
-| [Nome 2] | Força bruta | `feature/forca-bruta` |
+| Vitor Janzkovski | Força bruta | `feature/forca-bruta` |
 | [Nome 3] | Guloso | `feature/guloso` |
 | [Nome 4] | Casos de teste e análise | `test/casos-de-teste`, `docs/analise` |
 
@@ -178,4 +178,4 @@ Este projeto tem fins educacionais. O modelo de cobertura é uma simplificação
 
 * **André Caillot Filho** - [GitHub](https://github.com/alcdof) - [andreluizfilho@alunos.utfpr.edu.br](mailto:andreluizfilho@alunos.utfpr.edu.br)
 * **Davi Fernandes** - [GitHub](https://github.com/davifern4ndes) - [davfer@alunos.utfpr.edu.br](mailto:davfer@alunos.utfpr.edu.br)
-* **[Nome 3]** - [GitHub](https://github.com/[usuario3]) - [e-mail]
+* **Vitor Janzkovski** - [GitHub](https://github.com/Janzkovski03) - [vitorm.2007@alunos.utfpr.edu.br](mailto:vitorm.2007@alunos.utfpr.edu.br)
