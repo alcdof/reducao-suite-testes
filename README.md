@@ -2,7 +2,7 @@
 
 **Autores:** André Luiz Caillot de Oliveira Filho, Davi Fernandes, Vitor Janzkovski Cardoso de Mello
 
-**Disciplina:** Algoritmos e Estruturas de Dados 2 - UTFPR
+**Disciplina:** AE43CP - Algoritmos e Estruturas de Dados 2 - UTFPR
 
 ---
 
@@ -23,7 +23,7 @@ Este projeto recebe uma matriz binária de cobertura (linhas = testes, colunas =
 O objetivo é implementar e comparar duas estratégias de redução de suíte de testes.
 
 * **Linguagem:** C
-* **Dependências:** [inserir]
+* **Dependências:** Compilador C (gcc 7+ ou clang)
 * **Capacidades principais:**
   * Leitura e validação da entrada (quantidades, identificadores e valores binários).
   * Verificação de requisitos impossíveis de cobrir.
@@ -97,20 +97,38 @@ $$t^* = \arg\max_{t_i \notin S} \left| C(t_i) \setminus \bigcup_{t_j \in S} C(t_
 
 ## Como executar o projeto
 
-### Pré-requisitos
-
-[Descrever a instalação da linguagem e das dependências, se houver.]
-
-### Execução
-
+## Como compilar e executar
+ 
+### 1. Clonar o repositório
+ 
 ```bash
 git clone https://github.com/alcdof/reducao-suite-testes.git
 cd reducao-suite-testes
-[comando para executar] casos/referencia.txt
 ```
-
+ 
+### 2. Compilar
+ 
+```bash
+gcc -std=c99 -Wall -Wextra -O2 -o reducao src/*.c
+```
+ 
+### 3. Executar
+ 
+A entrada é lida pela entrada padrão. Para usar um arquivo:
+ 
+```bash
+./reducao < casos/referencia.txt
+```
+ 
+Para digitar a entrada manualmente:
+ 
+```bash
+./reducao
+```
+ 
+No Windows (PowerShell/MinGW), o executável é `reducao.exe`.
+ 
 ---
-
 ## Saída esperada
 
 Para a entrada de referência:
@@ -164,7 +182,7 @@ Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da
 | André Caillot | Leitura e validação da entrada | `feature/validacao-entrada` |
 | Vitor Janzkovski | Força bruta | `feature/forca-bruta` |
 | André Caillot | Guloso | `feature/guloso` |
-| [Nome 4] | Casos de teste e análise | `test/casos-de-teste`, `docs/analise` |
+| Davi Fernandes | Casos de teste e documentação | `test/casos-de-teste`, `docs/relatorio` |
 
 ---
 
