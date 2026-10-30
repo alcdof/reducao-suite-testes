@@ -158,20 +158,20 @@ reducao-suite-testes/
 
 ## Casos de teste
 
-Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da cobertura.
+Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da cobertura. Os resultados podem ser verificados no relatório, disponível em `docs/relatorio.pdf`.
 
-| Caso | Descrição | Resultado esperado | Resultado obtido |
-|------|-----------|--------------------|------------------|
-| `referencia.txt` | Matriz do enunciado | [preencher] | [preencher] |
-| `redundancia.txt` | Sobreposição e redundância entre coberturas | [preencher] | [preencher] |
-| `impossivel.txt` | Pelo menos um requisito sem cobertura | [preencher] | [preencher] |
-| `limite.txt` | Um teste e um requisito | [preencher] | [preencher] |
+| Caso | Descrição |
+|------|-----------|
+| `referencia.txt` | Matriz do enunciado |
+| `redundancia.txt` | Sobreposição e redundância entre coberturas |
+| `impossivel.txt` | Pelo menos um requisito sem cobertura |
+| `limite.txt` | Um teste e um requisito |
 
 ---
 
 ## Análise: o guloso sempre é ótimo?
 
-[Preencher com a conclusão do grupo, acompanhada de demonstração ou de um contraexemplo. Se usar contraexemplo, incluir a matriz e a saída das duas estratégias. Link para o relatório completo em `docs/`.]
+[Preencher com a conclusão do grupo, acompanhada de demonstração ou de um contraexemplo. Se usar contraexemplo, incluir a matriz e a saída das duas estratégias. Link para o relatório completo em `docs/relatorio.pdf`.]
 
 ---
 
