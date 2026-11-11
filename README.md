@@ -171,7 +171,20 @@ Cada caso fica em `casos/`, com entrada, saída obtida e verificação manual da
 
 ## Análise: o guloso sempre é ótimo?
 
-[Preencher com a conclusão do grupo, acompanhada de demonstração ou de um contraexemplo. Se usar contraexemplo, incluir a matriz e a saída das duas estratégias. Link para o relatório completo em `docs/relatorio.pdf`.]
+Os casos mostram que a força bruta sempre devolve a quantidade mínima, e que o guloso
+nem sempre a alcança. Nos casos de referência e de redundância (Casos 1 e 2), o guloso coincide
+com o ótimo. No contraexemplo (Caso 5), ele usa 1 teste a mais que o mínimo, e no caso de
+tamanho máximo (Caso 6) usa 2 testes a mais. Isso confirma que a regra gulosa não é ótima
+em geral e que uma única entrada em que as quantidades coincidem, como a de referência, não
+bastaria para concluir o contrário.
+
+O contraexemplo mostra o mecanismo da falha. O guloso escolhe primeiro T3, que tem o
+maior ganho imediato (4 requisitos), mas essa escolha deixa R3 e R6 descobertos, exigindo mais
+dois testes. A seleção {T1, T2} cobre tudo com apenas 2 testes, mas nenhum de seus testes tem o
+maior ganho no primeiro passo. No caso de tamanho máximo, ocorre o mesmo efeito em escala
+maior: os testes T11 e T12 têm ganho 5 e são escolhidos primeiro, porém os requisitos pares só
+são cobertos por T1 a T10, que acabam sendo todos necessários, tornando T11 e T12 redundantes.
+
 
 ---
 
